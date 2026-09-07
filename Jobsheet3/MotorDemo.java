@@ -1,0 +1,25 @@
+package Jobsheet3;
+
+public class MotorDemo {
+    public static void main(String[] args) {
+        Motor motor1 = new Motor();
+        motor1.setPlatNomor("N 4877 TW");
+        motor1.setKecepatan(50);
+
+        motor1.displayInfo();
+
+        Motor motor2 = new Motor();
+        motor2.setPlatNomor("N 1234 AB");
+        motor2.setStatusMesin(true);
+        motor2.setKecepatan(40);
+
+        motor2.displayInfo();
+
+        Motor motor3 = new Motor();
+        motor3.setPlatNomor("N 445 IB");
+        motor3.setKecepatan(60);
+
+        motor3.displayInfo();
+    }
+
+}
