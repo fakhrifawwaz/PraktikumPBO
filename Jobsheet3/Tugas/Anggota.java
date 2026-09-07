@@ -14,13 +14,13 @@ public class Anggota {
         this.jumlahPinjaman = 0;
     }
 
-    public String getnama() {
+    public String getNama() {
         return nama;
     }
-    public double getlimitPinjaman() {
+    public double getLimitPinjaman() {
         return limitPinjaman;
     }
-    public double getjumlahPinjaman() {
+    public double getJumlahPinjaman() {
         return jumlahPinjaman;
     }
 
