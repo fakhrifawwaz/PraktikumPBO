@@ -14,6 +14,10 @@ public class Anggota {
         this.jumlahPinjaman = 0;
     }
 
+    public String getNoKTP() {
+        return noKTP;
+    }
+
     public String getNama() {
         return nama;
     }
