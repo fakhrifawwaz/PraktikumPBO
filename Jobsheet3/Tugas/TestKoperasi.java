@@ -4,6 +4,8 @@ public class TestKoperasi {
 
     public static void main(String[] args) {
         Anggota anggota1 = new Anggota("111333444", "Donny", 5000000);
+        anggota1.setNama("Fakhri");
+        System.out.println("Nama Peminjam: " + anggota1.getNama());
 
         System.out.println("Nama Anggota: " + anggota1.getNama());
         System.out.println("Limit Pinjaman: " + anggota1.getLimitPinjaman());

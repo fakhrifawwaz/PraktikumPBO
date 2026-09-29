@@ -28,6 +28,10 @@ public class Anggota {
         return jumlahPinjaman;
     }
 
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
     public void pinjam(double nominal) {
         if (jumlahPinjaman + nominal > limitPinjaman) {
             System.out.println("Maaf, jumlah pinjaman melebihi limit.");
