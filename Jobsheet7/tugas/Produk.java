@@ -5,7 +5,6 @@ public class Produk {
     protected String nama;
     protected double harga;
 
-    // Constructor tanpa parameter (overloading #1)
     public Produk() {
         this.idProduk = "-";
         this.nama = "-";
@@ -13,7 +12,6 @@ public class Produk {
         System.out.println("Constructor Produk (tanpa parameter) dipanggil");
     }
 
-    // Constructor berparameter (overloading #2)
     public Produk(String idProduk, String nama, double harga) {
         this.idProduk = idProduk;
         this.nama = nama;
