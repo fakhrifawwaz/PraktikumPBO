@@ -6,7 +6,7 @@ import java.time.LocalTime;
 public class InheritanceDemo {
     public static void main(String[] args) {
         MakananKering mk = new MakananKering("MK001", "Keripik Singkong", 15000,
-                LocalDate.of(2026, 1, 10));
+                LocalDate.of(2025, 1, 10));
         System.out.println("--- Info Makanan Kering ---");
         mk.tampilInformasi();
         mk.cekKadaluarsa();
