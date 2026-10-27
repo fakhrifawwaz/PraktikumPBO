@@ -4,11 +4,11 @@ import java.time.LocalDate;
 
 public class MakananKering extends Produk {
     private LocalDate tanggalProduksi;
-    private static final int MASA_SIMPAN_HARI = 365; 
+    private final int MASA_SIMPAN_HARI = 365; 
 
     public MakananKering() {
         super();
-        this.tanggalProduksi = LocalDate.now();
+        this.tanggalProduksi = LocalDate.now(); 
         System.out.println("Constructor MakananKering (tanpa parameter) dipanggil");
     }
 

@@ -4,7 +4,7 @@ import java.time.LocalTime;
 
 public class MakananBasah extends Produk {
     private LocalTime jamProduksi;
-    private static final int MASA_SIMPAN_JAM = 8; 
+    private final int MASA_SIMPAN_JAM = 8; 
 
     public MakananBasah() {
         super(); 
@@ -15,6 +15,7 @@ public class MakananBasah extends Produk {
     public MakananBasah(String idProduk, String nama, double harga, LocalTime jamProduksi) {
         super(idProduk, nama, harga);
         this.jamProduksi = jamProduksi;
+        
         System.out.println("Constructor MakananBasah (berparameter) dipanggil");
     }
 

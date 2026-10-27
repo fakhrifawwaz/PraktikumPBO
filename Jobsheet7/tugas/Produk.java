@@ -1,9 +1,9 @@
 package Jobsheet7.tugas;
 
 public class Produk {
-    protected String idProduk;
-    protected String nama;
-    protected double harga;
+    public String idProduk;
+    public String nama;
+    public double harga;
 
     public Produk() {
         this.idProduk = "-";
