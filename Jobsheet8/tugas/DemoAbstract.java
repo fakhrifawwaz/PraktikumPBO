@@ -17,16 +17,16 @@ public class DemoAbstract {
 
         System.out.println();
 
-        MakananBasah mb2 = new MakananBasah("MB001", "Sosis Solo", 2500, 10);
+        MakananBasah mb1 = new MakananBasah("MB001", "Sosis Solo", 2500, 10);
         System.out.println("--- Info Makanan Basah ---");
-        mb2.tampilInformasi();
-        mb2.cekKadaluarsa();
-        mb2.tampilkanCaraSimpan();
-
-        MakananBasah mb1 = new MakananBasah("MB002", "Roti Bakar", 15000, 5);
-        System.out.println("\n--- Info Makanan Basah ---");
         mb1.tampilInformasi();
         mb1.cekKadaluarsa();
         mb1.tampilkanCaraSimpan();
+
+        MakananBasah mb2 = new MakananBasah("MB002", "Roti Bakar", 15000, 5);
+        System.out.println("\n--- Info Makanan Basah ---");
+        mb2.tampilInformasi();
+        mb2.cekKadaluarsa();
+        mb2.tampilkanCaraSimpan();
     }
 }
