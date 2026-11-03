@@ -1,3 +1,5 @@
+package PercobaanJobsheet;
+
 public class Main {
     public static void main(String[] args) {
         Kulkas kulkas = new Kulkas();
